@@ -1,0 +1,413 @@
+*{
+        margin: 1px;
+        padding: 1px;
+        box-sizing: border-box;      
+        text-decoration: none; 
+        background: #;    
+}
+
+.padre {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #F2FFFE;
+        position: absolute;
+        width: 100vw;}
+
+        .header{
+                background:rgba(138, 73, 0, 0.664);
+                display: flex;
+                flex-flow: row nowrap ;
+            
+                }
+
+                .titulo {
+                        background: rgba(170, 168, 168, 0.349);
+                        flex: 8 1 auto;
+
+                         }
+
+                         h5{;
+                                }
+
+                .menu1{  
+                        background:rgba(170, 168, 168, 0.349) ;
+                        font-size: 1em;
+                        flex: 1 1 auto;
+                        display: flex;
+                        flex-flow: row nowrap;
+                         
+                         }
+
+                         .inicio1{
+                                 
+                                flex: 1 1 auto;
+                                }
+                                .inicio1 a {
+                                        color: aliceblue;
+                                        font-size:20px;}
+                                        .inicio1 a:hover{
+                                                        color: #343434;
+                                                        }
+
+
+                         .registro{
+                                   flex: 1 1 auto;}
+                                   .registro a {
+                                        color: aliceblue;
+                                        font-size:20px;}
+                                        .registro a:hover{
+                                                        color: #343434;
+                                                        }
+
+         .seccion1{     
+                        display: flex;
+                        flex-flow: row nowrap ;
+                        justify-content: center;
+                        background:#F29E00;
+                        background: url(../img/2.jpg);
+                        background-position: center;
+                        background-attachment: contain;   
+                        background-size: cover;
+                 }       
+                 .menu2{  
+                        flex: 1 1 auto;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        justify-content: space-around;
+                        background-color: rgba(97, 36, 0, 0.534);
+                        
+                         }
+                        .nav1{ 
+                                flex: 1 1 auto;}
+                                .nav1 a {
+                                        color: aliceblue;
+                                        font-size:30px;}
+                                        .nav1 a:hover{
+                                                        color: rgb(165, 149, 2);
+                                                        }
+
+                        .nav2{ 
+                                flex: 1 1 auto;
+                                color: aliceblue;}
+                                .nav2 a {
+                                        color: aliceblue;
+                                        font-size: 30px;}
+                                        .nav2 a:hover{
+                                                        color: rgb(165, 149, 2);
+                                                        }
+                        .nav3{ 
+                                flex: 1 1 auto;
+                                color: aliceblue;}
+                                .nav3 a {
+                                        color: aliceblue;
+                                        font-size: 30px;}
+                                        .nav3 a:hover{
+                                                        color: rgb(165, 149, 2);
+                                                        }
+                        .nav4{ 
+                                flex: 1 1 auto;
+                                color: aliceblue;}
+                                .nav4 a {
+                                        color: aliceblue;
+                                        font-size: 30px;}
+                                        .nav4 a:hover{
+                                                        color: rgb(165, 149, 2);
+                                                        }
+
+
+                .encabezado{ 
+                        
+                        flex: 6 1 auto;
+                        display: flex;
+                        justify-content: center;
+                        flex-flow: column  nowrap;
+                        background: rgba(116, 58, 44, 0.3) ;
+                        border-radius: 15px;
+                        
+                        }
+
+                        .titulo2 {    
+                                flex: 1 1 auto;
+                                display: flex;
+                                flex-flow: column nowrap;
+                               
+                                
+                                }
+                                .titulo2{  flex: 1 1 auto;
+
+                                        text-align: center;
+                                        color:white;
+                                        font-size: 40px;
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        
+
+                                }
+
+                        .listado{
+                                flex: 1 1 auto;
+                                display: flex;                         
+                                background-color: rgb(100, 40, 0);
+                                width: 30vw ;
+                                border-radius: 30px;
+                                padding: 25px;
+                                justify-self: center;} 
+                                .listado a{ 
+                                                text-align: center;
+                                            color: aliceblue;
+                                            font-size: 30px;
+                                            
+                                        }
+                                            .listado a:hover{
+                                                color: rgb(47, 255, 255);
+                                                }
+                                
+                              
+                 
+        .main{ display: flex;
+                flex-flow: column nowrap;
+                width: 80vw;
+                margin-left: auto;
+                margin-right: auto;
+                background: #865801b0;
+                border-radius: 15px;}
+
+                h4 {    flex: 1 1 auto;
+                        text-align: center;
+                        font-size: 30px;}
+                        
+                .container{   
+                        flex: 5 1 auto;
+                        width: 100%;
+                        background: #faa9581f;
+                        color:white;
+                        display: flex;
+                        flex-direction: row;
+                        flex-flow: nowrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        border-radius: 15px;
+                        }
+
+                        .box-left {   
+                                flex: 1 1 auto;
+                                display: flex;
+                                flex-flow: column nowrap;
+                                justify-content: center;
+                                max-width: 25%;}
+                                .box-left h4{
+                                                flex: 1 1 auto;
+                                                color:#FAA958;}
+                                .circulo1{      width: 150px;
+                                                height: 150px;
+                                                border-radius: 50%;
+                                                background: rgba(255, 208, 0, 0.692);
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                text-align: center;
+                                                margin:0px auto;
+                                                padding:3%}  
+                                                .box-left svg{ 
+                                                                align-self: center;
+                                                                flex: 1 1 auto;
+                                                                color: rgb(255, 255, 255); }              
+                                
+                                .box-left p{
+                                                flex: 1 1 auto;
+                                                color: #000;}
+                        .box-center {  
+                                flex: 1 1 auto; 
+                                display: flex;
+                                flex-flow: column nowrap;
+                                justify-content: center;
+                                max-width: 25%;}
+
+                                .box-center h4{
+                                                flex: 1 1 auto;
+                                                color:#FAA958;}
+                                .iconos{ 
+                                        display: flex;
+                                        flex-flow: row nowrap;
+                                        justify-content: safe;
+                                        width: 150px;
+                                        height: 150px;
+                                        border-radius: 50%;
+                                        background: rgba(255, 208, 0, 0.692);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        margin:0px auto;
+                                        padding:3%}
+                                        .andr{
+                                                align-self: center;
+                                                flex: 1 1 auto;
+                                                color: rgb(255, 255, 255);}
+                                        .apple{
+                                                align-self: center;
+                                                flex: 1 1 auto;
+                                                color: rgb(255, 255, 255);}
+                                .box-center p{
+                                                flex: 1 1 auto;
+                                                color: #000;}
+                
+                        .box-right {  
+                                flex: 1 1 auto;
+                                display: flex;
+                                flex-flow: column nowrap;
+                                justify-content: baseline;
+                                max-width: 25%;}
+                                .box-right h4{
+                                                flex: 1 1 auto;
+                                                color:#FAA958;}
+                                .circulo2{      width: 150px;
+                                        height: 150px;
+                                        border-radius: 50%;
+                                        background: rgba(255, 208, 0, 0.692);
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        margin:0px auto;
+                                        padding:3%}
+                                        .box-right svg{ 
+                                                        align-self: center;
+                                                        flex: 1 1 auto;
+                                                        color: rgb(255, 255, 255); }
+                                .box-right p{
+                                                flex: 1 1 auto;
+                                                color: #000;}  
+                .container2{
+                        flex: 3 1 auto;
+                        display: flex;
+                        flex-flow: column nowrap;
+                        align-items: center;
+                        align-content: center;
+                        background: #663b028e;}
+
+                         h3{
+                                flex: 1 1 auto;
+                                text-align: center;
+                                font-size: 30px;
+                                color: #000;}
+
+                        .formulario {
+                                flex: 8 1 auto;
+                                display: flex;
+                                flex-flow: column nowrap;
+                                background-color: rgb(71, 71, 71);
+                                color: rgb(255, 255, 255);
+                                width: 50vw;
+                                height: auto;
+                                border-radius: 25px;
+                                margin-left: auto;
+                                margin-right:auto;}
+                                .formulario input{
+                                        padding: .6em;
+                                        border-radius: 10px;
+                                        margin-left: 3px;
+                                        margin-right: 3px;
+                                        width: 75%;}
+
+                                .contacto2{
+                                                flex: 1 1 auto;}
+                                        .encabezado-form{
+                                                        font-size: 20px;
+                                                        text-align: center; 
+                                                        color: rgb(255, 209, 5);}
+                                .nameph{
+                                        flex: 2 1 auto;
+                                        display: flex;
+                                        flex-flow: row nowrap;}  
+                                        .name2{
+                                                flex: 1 1 auto;}
+                                                .name2 p{width:auto ;} 
+                                        .phone{
+                                                flex: 1 1 auto;}     
+                                                .phone p{width: auto;
+                                                        margin-right: 10px;}  
+                                .correo2{
+                                        flex: 1 1 auto;
+                                
+                                }
+                                        .correo2 p{width: 100%;}
+                                        .correo2 p input{
+                                                         width: 43vw; }
+                                        
+                                .mensaje{
+                                        flex: 1 1 auto;
+                                        display: flex;
+                                        flex-flow: row nowrap;}
+
+                                        .mensaje label{ 
+                                                        margin-left: 9px;
+                                                        flex: 0.2 1 auto;
+                                                       }
+                                        .mensaje textarea{
+                                                        flex: 5 1 auto;
+                                                        width: auto;
+                                                        border-radius: 12px;
+                                                        margin-right: 6%;        
+                                                        }
+                                .enviar{
+                                        flex: 1 1 auto;
+                                        display: flex;
+                                        justify-content: flex-end;
+                                        margin-right: 5%;
+                                       
+                                        }
+                                        .eviar p{
+                                                flex: 1 1 auto;
+                                                align-self: flex-end;}
+                                        .enviar p input {
+                                                        flex: 1 1 auto;
+                                                        background: rgba(114, 0, 0, 0.747);
+                                                        width: 50px;
+                                                        border-radius: 10px;
+                                                        width: fit-content;
+                                                        color: white;}
+         .footer{ flex: 1 1 auto;
+                background: rgba(138, 73, 0, 0.664);
+                }
+                .pie{
+                        text-align:center; 
+                        margin-bottom: 1%;
+                        font-size: 1.25em;}
+                
+
+
+
+
+
+
+/* main {background-color: #c75656;
+        width: 100vw;
+      }
+
+main{position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65vw;
+        border-radius: 20px;
+         } */
+
+
+
+
+
+
+         
+
+
+
+
+
+                
+                
+                
+
+
+
+
+
+
